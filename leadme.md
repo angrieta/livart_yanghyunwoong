@@ -15,7 +15,7 @@ h3 - font-size:1.25rem; font-weight: 500; #282828
 em - font-size:1.375rem;  <!-- 가격 -->
 
 <!-- 카테고리 인기상품 -->
-h3 - font-size:1.375rem; font-weight: 700; #282828 
+h3 - font-size:1.25rem; font-weight: 500; #282828 
 
 del - font-size:1.25rem; #aaaaaa<!-- 세일가격 -->
 em - font-size:1.375rem;  <!-- 메인가격 -->

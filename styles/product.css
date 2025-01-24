@@ -1,0 +1,174 @@
+main .content_container {
+    width: 1600px; margin: 0 auto;
+    display: flex;
+    padding-top: 79px;
+    justify-content: space-between;
+}
+main .content_container .left_contents {}
+main .content_container .left_contents .main_photo_bg {
+    background-image: url(../images/product/main_photo_001.png);
+    width: 926px; height: 640px;
+    border-radius: 30px;
+}
+main .content_container .left_contents .btm_preview {}
+main .content_container .left_contents .btm_preview li {
+    text-align: center;
+    padding-top: 30px;
+}
+main .content_container .left_contents .btm_preview li a {
+}
+main .content_container .left_contents .btm_preview li a img {}
+main .content_container .left_contents .btm_preview li a:first-child img{
+    margin-bottom: 15px; margin-right: 20px;
+}
+main .content_container .left_contents .btm_preview li a:last-child img{
+    margin-bottom: 15px;margin-left: 20px;
+}
+main .content_container .left_contents .btm_preview li a:nth-child(3) img{
+    border-radius: 20px;
+    margin: 0 15px;
+}
+main .content_container .left_contents .btm_preview li a:nth-child(2) img,
+main .content_container .left_contents .btm_preview li a:nth-child(4) img,
+main .content_container .left_contents .btm_preview li a:nth-child(5) img,
+main .content_container .left_contents .btm_preview li a:nth-child(6) img{
+    border-radius: 20px; border: 1px solid #c8c8c8;
+    margin: 0 15px;
+}
+main .content_container .right_contents {
+    width: 570px;
+}
+main .content_container .right_contents > p {
+    margin-top: 37px;
+    display: inline-block;
+    font-size:1.5rem;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+main .content_container .right_contents h2 {
+    font-weight: 600;
+    font-size: 2.8125rem;
+    margin-bottom: 34px;
+}
+main .content_container .right_contents ul {
+    
+}
+main .content_container .right_contents ul li {display: flex;
+    margin-bottom: 34px;
+    align-items: center;
+}
+main .content_container .right_contents ul li:nth-child(5) {
+    margin-bottom: 0px;
+}
+main .content_container .right_contents ul li p {
+    width: 150px;
+    color: #5F5F5F;
+    font-size:1.5rem;
+}
+main .content_container .right_contents ul li:nth-child(2) p:last-child{
+    width: max-content;
+} 
+main .content_container .right_contents ul li p del {font-size:1.875rem;}
+main .content_container .right_contents ul li p em {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #FF2E31;
+    margin-right: 20px;
+}
+main .content_container .right_contents ul li p span {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #000;
+}
+main .content_container .right_contents ul li .transfor_text {
+    color: #000;
+}
+main .content_container .right_contents ul li select .select_text {}
+main .content_container .right_contents ul li #item_color {
+    border: 1px solid #000;
+    width: 420px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+main .content_container .right_contents ul li #item_color {}
+main .content_container .right_contents ul li #item_color option {}
+main .content_container .right_contents ul li #item_size {
+    border: 1px solid #000;
+    width: 420px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+main .content_container .right_contents ul li #item_size option {}
+main .content_container .right_contents ul .btn_container {
+    margin:57px 0 40px 0;
+    justify-content: space-between;
+    
+}
+main .content_container .right_contents ul .btn_container a:nth-child(3) {
+    font-size:1.875rem;
+    font-weight: 600;text-align: center; padding: 15px 0;
+    color: #fff;
+    width: 420px;
+    background-color: #FF4D4F;
+    
+}
+main .content_container .right_contents ul .btn_container a img {}
+main .content_container .right_contents ul {}
+main .content_container .right_contents ul .kakao_naver_buy {
+    justify-content: space-between;
+}
+main .content_container .right_contents ul .kakao_naver_buy a {
+    width: 280px;
+    text-align: center;
+    height: 60px;
+}
+main .content_container .right_contents ul .kakao_naver_buy a span {
+    font-weight: 500;
+    font-size:1.5rem;
+}
+main .content_container .right_contents ul .kakao_naver_buy a img {margin-right: 15px;}
+main .content_container .right_contents ul .kakao_naver_buy a:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9E000;
+}
+main .content_container .right_contents ul .kakao_naver_buy a:nth-child(2) {
+    background: #00DE5A;
+    align-items: center;
+}
+main .content_container .right_contents ul .kakao_naver_buy a:nth-child(2) img {
+    margin-top :10px;
+    width: 100px;
+}
+
+
+main .review_container {
+    width: 1400px; margin: 0 auto;
+    display: flex; flex-flow: column ;
+    padding: 61px 79px;
+
+}
+main .review_container .review_top{display: flex; justify-content: space-between; padding-bottom: 33px;}
+main .review_container .review_top .left_contents {display: flex;}
+main .review_container .review_top .left_contents a{}
+main .review_container .review_top .left_contents a img{}
+main .review_container .review_top .left_contents p{
+    font-size:1.5rem; 
+    font-weight: 600;
+    padding-left: 10px;
+}
+main .review_container .review_top .right_contents{display: flex;}
+main .review_container .review_top .right_contents p{}
+main .review_container .review_top .right_contents p a{}
+main .review_container .review_top .right_contents p a img{}
+main .review_container .btm_review_container{
+    width: 1400px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px ;
+}
+main .review_container .btm_review_container a{}
+main .review_container .btm_review_container a img{}
