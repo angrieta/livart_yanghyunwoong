@@ -147,28 +147,31 @@ main .content_container .right_contents ul .kakao_naver_buy a:nth-child(2) img {
 
 main .review_container {
     width: 1400px; margin: 0 auto;
-    display: flex; flex-flow: column ;
+    display: flex; flex-flow: column nowrap ;
     padding: 61px 79px;
 
 }
-main .review_container .review_top{display: flex; justify-content: space-between; padding-bottom: 33px;}
+main .review_container .review_top{
+    display: flex; justify-content: space-between; padding-bottom: 33px;
+    flex-flow: row nowrap;
+}
 main .review_container .review_top .left_contents {display: flex;}
 main .review_container .review_top .left_contents a{}
 main .review_container .review_top .left_contents a img{}
 main .review_container .review_top .left_contents p{
     font-size:1.5rem; 
     font-weight: 600;
-    padding-left: 10px;
 }
 main .review_container .review_top .right_contents{display: flex;}
 main .review_container .review_top .right_contents p{}
 main .review_container .review_top .right_contents p a{}
 main .review_container .review_top .right_contents p a img{}
 main .review_container .btm_review_container{
-    width: 1400px;
-    display: flex;
-    justify-content:space-between;
-    border-radius: 10px ;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
 }
 main .review_container .btm_review_container a{}
-main .review_container .btm_review_container a img{}
+main .review_container .btm_review_container a img{
+    border-radius: 10px;
+    width: 190px; 
+}
